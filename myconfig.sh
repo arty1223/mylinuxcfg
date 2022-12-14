@@ -8,4 +8,5 @@ if test -f ~/.bashrc; then
     echo neofetch >> ~/.bashrc
 elif test -f ~/.zshrc; then
     echo neofetch >> ~/.zshrc
+fi
 sudo service vsftpd restart
